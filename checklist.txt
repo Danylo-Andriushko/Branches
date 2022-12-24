@@ -1,0 +1,35 @@
+№	E-mail	"Actual result
+"
+1	Email in lowercase	passed
+2	Email in uppercase	passed
+3	Email with numbers in account name	passed
+4	Email with numbers in the domain part	passed
+5	Email with a dash in the account name	passed
+6	Email with a dash in the domain part	passed
+7	Email with an underscore in the account name	passed
+8	Email with an underscore in the domain part	passed
+9	Email with dots in account name	passed
+10	Email with multiple dots in the domain part	failed
+11	Email without dots in the domain part	failed
+12	Email with dots after @  sign in the domain part	failed
+13	Email with missing @ sign	failed
+14	Email with more than one @ sign.	failed
+15	Email with spaces in account name	failed
+16	Email with spaces in the domain part	failed
+17	Email without account name	failed
+18	Email without domain part	failed
+19	Email with Cyrillic domain name	failed
+20	Email with Latin domain name	passed
+21	Email with emoji in the domain part	failed
+22	Email with emoj in the account name part	passed
+23	Email without domain zone	failed
+24	Email with number in the domain zone	failed
+25	Email with symbol in the domain zone	failed
+26	Email with emoji in the domain zone	failed
+27	Empty email field	failed
+28	Email length 254 characters	failed
+29	Email length more than 254 characters	failed
+30	"""Please enter an email address."" text appears when
+email field is empty"	passed
+31	"""Please enter a valid email address, like: 
+yourname@email.com"" text appears when email isn't valid"	passed
